@@ -1,6 +1,4 @@
-package representation.xy;
-
-import java.util.Random;
+package representation;
 
 import weka.core.*;
 import weka.filters.SimpleBatchFilter;
@@ -8,7 +6,7 @@ import weka.filters.SimpleBatchFilter;
  * 
  * @author jc
  */
-public class XYFilter extends SimpleBatchFilter {
+public class TwoDimensionalFilter extends SimpleBatchFilter {
 
 	@Override
 	protected Instances determineOutputFormat(Instances inputFormat) throws Exception {
